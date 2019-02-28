@@ -46,3 +46,17 @@ module RuboCop
     end
   end
 end
+
+# const classVarsMsg = "Replace class var %<class_var>s with a class " & "\n" &
+#               "instance var."
+
+# type
+#   ClassVars = ref object of Cop
+
+# proc onCvasgn(node: Node) =
+#   addOffense(node, location="name")
+
+# proc message(node: Node) =
+#   classVar = node[0]
+#   format(classVarsMsg, classVar=classVar)
+
