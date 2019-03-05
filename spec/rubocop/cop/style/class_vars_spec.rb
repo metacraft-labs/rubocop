@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'tracing'
 
 RSpec.describe RuboCop::Cop::Style::ClassVars do
   subject(:cop) { described_class.new }

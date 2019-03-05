@@ -61,6 +61,7 @@ module RuboCop
           'inlined in method definitions.'
         ].join(' ')
 
+
         def on_send(node)
           return unless node.access_modifier?
 

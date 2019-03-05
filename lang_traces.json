@@ -1,0 +1,462 @@
+{
+  "/home/alehander42/rubocop/lib/rubocop/cop/style/case_equality.rb": {
+    "imports": [
+
+    ],
+    "main": [
+
+    ],
+    "classes": [
+      {
+        "kind": "Class",
+        "label": "CaseEquality",
+        "methods": [
+          {
+            "label": "on_send",
+            "node": {
+              "kind": "NodeMethod",
+              "label": {
+                "typ": "Variable",
+                "label": "on_send"
+              },
+              "args": [
+                {
+                  "kind": "Variable",
+                  "label": "self",
+                  "typ": {
+                    "kind": "Simple",
+                    "label": "Class"
+                  }
+                },
+                {
+                  "kind": "Variable",
+                  "label": "node",
+                  "typ": {
+                    "kind": "Simple",
+                    "label": "Void"
+                  }
+                }
+              ],
+              "code": [
+                {
+                  "kind": "Call",
+                  "children": [
+                    {
+                      "kind": "Variable",
+                      "typ": null,
+                      "label": "case_equality?"
+                    },
+                    {
+                      "kind": "Variable",
+                      "label": "node"
+                    },
+                    {
+                      "kind": "Block",
+                      "label": {
+                        "typ": "Variable",
+                        "label": ""
+                      },
+                      "args": [
+
+                      ],
+                      "code": [
+                        {
+                          "kind": "Call",
+                          "children": [
+                            {
+                              "kind": "Variable",
+                              "typ": null,
+                              "label": "add_offense"
+                            },
+                            {
+                              "kind": "Variable",
+                              "label": "node"
+                            },
+                            {
+                              "kind": "Pair",
+                              "children": [
+                                {
+                                  "kind": "Symbol",
+                                  "text": "location"
+                                },
+                                {
+                                  "kind": "Symbol",
+                                  "text": "selector"
+                                }
+                              ],
+                              "typ": null,
+                              "line": 26,
+                              "column": 51
+                            }
+                          ],
+                          "typ": null,
+                          "line": 26,
+                          "column": 33
+                        }
+                      ],
+                      "typ": null,
+                      "return_type": null
+                    }
+                  ],
+                  "typ": null,
+                  "line": 26,
+                  "column": 10
+                }
+              ],
+              "typ": null,
+              "return_type": {
+                "kind": "Simple",
+                "label": "NilClass"
+              },
+              "line": 25,
+              "column": 8
+            }
+          }
+        ],
+        "fields": [
+
+        ],
+        "typ": null
+      }
+    ],
+    "lines": {
+      "21": [
+        {
+          "kind": "RubySend",
+          "children": [
+            {
+              "kind": "String",
+              "text": "Avoid the use of the case equality operator `===`."
+            },
+            {
+              "kind": "Variable",
+              "typ": null,
+              "label": "freeze"
+            }
+          ],
+          "typ": null,
+          "line": 21,
+          "column": 14
+        }
+      ],
+      "23": [
+        {
+          "kind": "RubySend",
+          "children": [
+            {
+              "kind": "Nil",
+              "typ": null
+            },
+            {
+              "kind": "Variable",
+              "typ": null,
+              "label": "def_node_matcher"
+            },
+            {
+              "kind": "Symbol",
+              "text": "case_equality?"
+            },
+            {
+              "kind": "String",
+              "text": "(send _ :=== _)"
+            }
+          ],
+          "typ": null,
+          "line": 23,
+          "column": 8
+        }
+      ],
+      "26": [
+        {
+          "kind": "RubySend",
+          "children": [
+            {
+              "kind": "Nil",
+              "typ": null
+            },
+            {
+              "kind": "Variable",
+              "typ": null,
+              "label": "add_offense"
+            },
+            {
+              "kind": "Variable",
+              "label": "node"
+            },
+            {
+              "kind": "Table",
+              "children": [
+                {
+                  "kind": "Pair",
+                  "children": [
+                    {
+                      "kind": "Symbol",
+                      "text": "location"
+                    },
+                    {
+                      "kind": "Symbol",
+                      "text": "selector"
+                    }
+                  ],
+                  "typ": null,
+                  "line": 26,
+                  "column": 51
+                }
+              ],
+              "typ": null,
+              "line": 26,
+              "column": 51
+            }
+          ],
+          "typ": null,
+          "line": 26,
+          "column": 33
+        },
+        {
+          "kind": "RubySend",
+          "children": [
+            {
+              "kind": "Nil",
+              "typ": null
+            },
+            {
+              "kind": "Variable",
+              "typ": null,
+              "label": "case_equality?"
+            },
+            {
+              "kind": "Variable",
+              "label": "node"
+            },
+            {
+              "kind": "Block",
+              "label": {
+                "typ": "Variable",
+                "label": ""
+              },
+              "args": [
+
+              ],
+              "code": [
+                {
+                  "kind": "Call",
+                  "children": [
+                    {
+                      "kind": "Variable",
+                      "typ": null,
+                      "label": "add_offense"
+                    },
+                    {
+                      "kind": "Variable",
+                      "label": "node"
+                    },
+                    {
+                      "kind": "Pair",
+                      "children": [
+                        {
+                          "kind": "Symbol",
+                          "text": "location"
+                        },
+                        {
+                          "kind": "Symbol",
+                          "text": "selector"
+                        }
+                      ],
+                      "typ": null,
+                      "line": 26,
+                      "column": 51
+                    }
+                  ],
+                  "typ": null,
+                  "line": 26,
+                  "column": 33
+                }
+              ],
+              "typ": null,
+              "return_type": null
+            }
+          ],
+          "typ": null,
+          "line": 26,
+          "column": 10
+        }
+      ]
+    },
+    "method_lines": {
+      "26": {
+        "kind": "Block",
+        "label": {
+          "typ": "Variable",
+          "label": ""
+        },
+        "args": [
+
+        ],
+        "code": [
+          {
+            "kind": "Call",
+            "children": [
+              {
+                "kind": "Variable",
+                "typ": null,
+                "label": "add_offense"
+              },
+              {
+                "kind": "Variable",
+                "label": "node"
+              },
+              {
+                "kind": "Pair",
+                "children": [
+                  {
+                    "kind": "Symbol",
+                    "text": "location"
+                  },
+                  {
+                    "kind": "Symbol",
+                    "text": "selector"
+                  }
+                ],
+                "typ": null,
+                "line": 26,
+                "column": 51
+              }
+            ],
+            "typ": null,
+            "line": 26,
+            "column": 33
+          }
+        ],
+        "typ": null,
+        "return_type": null
+      },
+      "25": {
+        "kind": "NodeMethod",
+        "label": {
+          "typ": "Variable",
+          "label": "on_send"
+        },
+        "args": [
+          {
+            "kind": "Variable",
+            "label": "self",
+            "typ": {
+              "kind": "Simple",
+              "label": "Class"
+            }
+          },
+          {
+            "kind": "Variable",
+            "label": "node",
+            "typ": {
+              "kind": "Simple",
+              "label": "Void"
+            }
+          }
+        ],
+        "code": [
+          {
+            "kind": "Call",
+            "children": [
+              {
+                "kind": "Variable",
+                "typ": null,
+                "label": "case_equality?"
+              },
+              {
+                "kind": "Variable",
+                "label": "node"
+              },
+              {
+                "kind": "Block",
+                "label": {
+                  "typ": "Variable",
+                  "label": ""
+                },
+                "args": [
+
+                ],
+                "code": [
+                  {
+                    "kind": "Call",
+                    "children": [
+                      {
+                        "kind": "Variable",
+                        "typ": null,
+                        "label": "add_offense"
+                      },
+                      {
+                        "kind": "Variable",
+                        "label": "node"
+                      },
+                      {
+                        "kind": "Pair",
+                        "children": [
+                          {
+                            "kind": "Symbol",
+                            "text": "location"
+                          },
+                          {
+                            "kind": "Symbol",
+                            "text": "selector"
+                          }
+                        ],
+                        "typ": null,
+                        "line": 26,
+                        "column": 51
+                      }
+                    ],
+                    "typ": null,
+                    "line": 26,
+                    "column": 33
+                  }
+                ],
+                "typ": null,
+                "return_type": null
+              }
+            ],
+            "typ": null,
+            "line": 26,
+            "column": 10
+          }
+        ],
+        "typ": null,
+        "return_type": {
+          "kind": "Simple",
+          "label": "NilClass"
+        },
+        "line": 25,
+        "column": 8
+      }
+    }
+  },
+  "%types": {
+    "RuboCop::Cop::Badge": {
+      "kind": "Object",
+      "label": "RuboCop::Cop::Badge",
+      "fields": [
+        {
+          "kind": "Simple",
+          "label": "Symbol",
+          "fieldLabel": "department"
+        },
+        {
+          "kind": "Simple",
+          "label": "String",
+          "fieldLabel": "cop_name"
+        }
+      ]
+    },
+    "Class": {
+      "kind": "Object",
+      "label": "Class",
+      "fields": [
+        {
+          "kind": "Simple",
+          "label": "RuboCop::Cop::Badge",
+          "fieldLabel": "badge"
+        }
+      ]
+    }
+  }
+}

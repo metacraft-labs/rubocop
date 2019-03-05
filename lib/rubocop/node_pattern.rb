@@ -121,6 +121,9 @@ module RuboCop
       attr_reader :match_code
 
       def initialize(str, node_var = 'node0')
+        if str == '(send _ :=== _)'
+          @case = true
+        end
         @string   = str
         @root     = node_var
 
@@ -137,7 +140,9 @@ module RuboCop
           @string.scan(TOKEN).reject { |token| token =~ /\A#{SEPARATORS}\Z/ }
 
         @match_code = compile_expr(tokens, node_var, false)
-
+        if @case
+          p @match_code
+        end
         fail_due_to('unbalanced pattern') unless tokens.empty?
       end
 

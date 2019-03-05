@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+require_relative 'tracing'
 
 module RuboCop
   module Cop
@@ -28,3 +29,14 @@ module RuboCop
     end
   end
 end
+
+# nodeMatcher isCaseEquality, "(send _ :=== _)"
+
+# proc onSend(self: CaseEquality, node: Node) =
+#   isCaseEquality(node):
+#     addOffense(node, location="selector")
+#
+#
+
+# if true and node[1] == identifier"===" and true and node.len == 3:
+

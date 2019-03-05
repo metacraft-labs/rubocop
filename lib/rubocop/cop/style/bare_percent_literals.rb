@@ -45,7 +45,7 @@ module RuboCop
         end
 
         private
-
+# guards : we can move them before call and inline them anyway before the on_
         def check(node)
           return if node.heredoc?
           return unless node.loc.respond_to?(:begin)
