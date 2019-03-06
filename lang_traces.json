@@ -948,36 +948,7 @@
           "kind": "Object",
           "label": "RuboCop::Cop::Style::CaseEquality",
           "fields": [
-            {
-              "kind": "Simple",
-              "label": "RuboCop::Config",
-              "fieldLabel": "config"
-            },
-            {
-              "kind": "Simple",
-              "label": "Hash",
-              "fieldLabel": "options"
-            },
-            {
-              "kind": "Simple",
-              "label": "Array",
-              "fieldLabel": "offenses"
-            },
-            {
-              "kind": "Simple",
-              "label": "Array",
-              "fieldLabel": "corrections"
-            },
-            {
-              "kind": "Simple",
-              "label": "Hash",
-              "fieldLabel": "corrected_nodes"
-            },
-            {
-              "kind": "Simple",
-              "label": "NilClass",
-              "fieldLabel": "processed_source"
-            }
+
           ],
           "base": {
             "kind": "Simple",
@@ -1298,347 +1269,70 @@
       "kind": "Object",
       "label": "RSpec::Core::FilterableItemRepository::UpdateOptimized",
       "fields": [
-        {
-          "kind": "Simple",
-          "label": "Symbol",
-          "fieldLabel": "applies_predicate"
-        },
-        {
-          "kind": "Simple",
-          "label": "Array",
-          "fieldLabel": "items_and_filters"
-        }
+
       ]
     },
     "UpdateOptimized": {
       "kind": "Object",
       "label": "RSpec::Core::FilterableItemRepository::UpdateOptimized",
       "fields": [
-        {
-          "kind": "Simple",
-          "label": "Symbol",
-          "fieldLabel": "applies_predicate"
-        },
-        {
-          "kind": "Simple",
-          "label": "Array",
-          "fieldLabel": "items_and_filters"
-        }
+
       ]
     },
     "RSpec::Core::Hooks::HookCollections": {
       "kind": "Object",
       "label": "RSpec::Core::Hooks::HookCollections",
       "fields": [
-        {
-          "kind": "Simple",
-          "label": "Class",
-          "fieldLabel": "owner"
-        },
-        {
-          "kind": "Simple",
-          "label": "Class",
-          "fieldLabel": "filterable_item_repo_class"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "before_example_hooks"
-        },
-        {
-          "kind": "Simple",
-          "label": "RSpec::Core::FilterableItemRepository::UpdateOptimized",
-          "fieldLabel": "after_example_hooks"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "before_context_hooks"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "after_context_hooks"
-        },
-        {
-          "kind": "Simple",
-          "label": "RSpec::Core::FilterableItemRepository::UpdateOptimized",
-          "fieldLabel": "around_example_hooks"
-        }
+
       ]
     },
     "HookCollections": {
       "kind": "Object",
       "label": "RSpec::Core::Hooks::HookCollections",
       "fields": [
-        {
-          "kind": "Simple",
-          "label": "Class",
-          "fieldLabel": "owner"
-        },
-        {
-          "kind": "Simple",
-          "label": "Class",
-          "fieldLabel": "filterable_item_repo_class"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "before_example_hooks"
-        },
-        {
-          "kind": "Simple",
-          "label": "RSpec::Core::FilterableItemRepository::UpdateOptimized",
-          "fieldLabel": "after_example_hooks"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "before_context_hooks"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "after_context_hooks"
-        },
-        {
-          "kind": "Simple",
-          "label": "RSpec::Core::FilterableItemRepository::UpdateOptimized",
-          "fieldLabel": "around_example_hooks"
-        }
+
       ]
     },
     "Class": {
       "kind": "Object",
       "label": "Class",
       "fields": [
-        {
-          "kind": "Compound",
-          "args": [
-            {
-              "kind": "Simple",
-              "label": "Void"
-            },
-            {
-              "kind": "Simple",
-              "label": "Void"
-            }
-          ],
-          "original": {
-            "kind": "Generic",
-            "label": "Table",
-            "genericArgs": [
-              "K",
-              "V"
-            ]
-          },
-          "fieldLabel": "user_metadata"
-        },
-        {
-          "kind": "Simple",
-          "label": "Void",
-          "fieldLabel": "superclass_metadata"
-        },
-        {
-          "kind": "Simple",
-          "label": "Hash",
-          "fieldLabel": "metadata"
-        },
-        {
-          "kind": "Simple",
-          "label": "Bool",
-          "fieldLabel": "currently_executing_a_context_hook"
-        },
-        {
-          "kind": "Simple",
-          "label": "RSpec::Core::Hooks::HookCollections",
-          "fieldLabel": "hooks"
-        },
-        {
-          "kind": "Simple",
-          "label": "Array",
-          "fieldLabel": "parent_groups"
-        },
-        {
-          "kind": "Simple",
-          "label": "Array",
-          "fieldLabel": "examples"
-        },
-        {
-          "kind": "Simple",
-          "label": "Array",
-          "fieldLabel": "children"
-        }
+
       ]
     },
     "RSpec::Core::Example": {
       "kind": "Object",
       "label": "RSpec::Core::Example",
       "fields": [
-        {
-          "kind": "Simple",
-          "label": "Class",
-          "fieldLabel": "example_group_class"
-        },
-        {
-          "kind": "Simple",
-          "label": "Proc",
-          "fieldLabel": "example_block"
-        },
-        {
-          "kind": "Simple",
-          "label": "Hash",
-          "fieldLabel": "metadata"
-        },
-        {
-          "kind": "Simple",
-          "label": "String",
-          "fieldLabel": "id"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "exception"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "example_group_instance"
-        },
-        {
-          "kind": "Simple",
-          "label": "Class",
-          "fieldLabel": "clock"
-        },
-        {
-          "kind": "Simple",
-          "label": "Class",
-          "fieldLabel": "reporter"
-        }
+
       ]
     },
     "Example": {
       "kind": "Object",
       "label": "RSpec::Core::Example",
       "fields": [
-        {
-          "kind": "Simple",
-          "label": "Class",
-          "fieldLabel": "example_group_class"
-        },
-        {
-          "kind": "Simple",
-          "label": "Proc",
-          "fieldLabel": "example_block"
-        },
-        {
-          "kind": "Simple",
-          "label": "Hash",
-          "fieldLabel": "metadata"
-        },
-        {
-          "kind": "Simple",
-          "label": "String",
-          "fieldLabel": "id"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "exception"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "example_group_instance"
-        },
-        {
-          "kind": "Simple",
-          "label": "Class",
-          "fieldLabel": "clock"
-        },
-        {
-          "kind": "Simple",
-          "label": "Class",
-          "fieldLabel": "reporter"
-        }
+
       ]
     },
     "RuboCop::Config": {
       "kind": "Object",
       "label": "RuboCop::Config",
       "fields": [
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "loaded_path"
-        },
-        {
-          "kind": "Simple",
-          "label": "Hash",
-          "fieldLabel": "for_cop"
-        },
-        {
-          "kind": "Simple",
-          "label": "Hash",
-          "fieldLabel": "hash"
-        }
+
       ]
     },
     "Config": {
       "kind": "Object",
       "label": "RuboCop::Config",
       "fields": [
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "loaded_path"
-        },
-        {
-          "kind": "Simple",
-          "label": "Hash",
-          "fieldLabel": "for_cop"
-        },
-        {
-          "kind": "Simple",
-          "label": "Hash",
-          "fieldLabel": "hash"
-        }
+
       ]
     },
     "RuboCop::Cop::Style::CaseEquality": {
       "kind": "Object",
       "label": "RuboCop::Cop::Style::CaseEquality",
       "fields": [
-        {
-          "kind": "Simple",
-          "label": "RuboCop::Config",
-          "fieldLabel": "config"
-        },
-        {
-          "kind": "Simple",
-          "label": "Hash",
-          "fieldLabel": "options"
-        },
-        {
-          "kind": "Simple",
-          "label": "Array",
-          "fieldLabel": "offenses"
-        },
-        {
-          "kind": "Simple",
-          "label": "Array",
-          "fieldLabel": "corrections"
-        },
-        {
-          "kind": "Simple",
-          "label": "Hash",
-          "fieldLabel": "corrected_nodes"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "processed_source"
-        }
+
       ],
       "base": {
         "kind": "Simple",
@@ -1649,268 +1343,56 @@
       "kind": "Object",
       "label": "Parser::Source::Buffer",
       "fields": [
-        {
-          "kind": "Simple",
-          "label": "String",
-          "fieldLabel": "name"
-        },
-        {
-          "kind": "Simple",
-          "label": "String",
-          "fieldLabel": "source"
-        },
-        {
-          "kind": "Simple",
-          "label": "Int",
-          "fieldLabel": "first_line"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "lines"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "line_begins"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "slice_source"
-        },
-        {
-          "kind": "Simple",
-          "label": "Hash",
-          "fieldLabel": "line_for_position"
-        },
-        {
-          "kind": "Simple",
-          "label": "Hash",
-          "fieldLabel": "column_for_position"
-        }
+
       ]
     },
     "Buffer": {
       "kind": "Object",
       "label": "Parser::Source::Buffer",
       "fields": [
-        {
-          "kind": "Simple",
-          "label": "String",
-          "fieldLabel": "name"
-        },
-        {
-          "kind": "Simple",
-          "label": "String",
-          "fieldLabel": "source"
-        },
-        {
-          "kind": "Simple",
-          "label": "Int",
-          "fieldLabel": "first_line"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "lines"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "line_begins"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "slice_source"
-        },
-        {
-          "kind": "Simple",
-          "label": "Hash",
-          "fieldLabel": "line_for_position"
-        },
-        {
-          "kind": "Simple",
-          "label": "Hash",
-          "fieldLabel": "column_for_position"
-        }
+
       ]
     },
     "Parser::Source::Range": {
       "kind": "Object",
       "label": "Parser::Source::Range",
       "fields": [
-        {
-          "kind": "Simple",
-          "label": "Parser::Source::Buffer",
-          "fieldLabel": "source_buffer"
-        },
-        {
-          "kind": "Simple",
-          "label": "Integer",
-          "fieldLabel": "end_pos"
-        },
-        {
-          "kind": "Simple",
-          "label": "Integer",
-          "fieldLabel": "begin_pos"
-        }
+
       ]
     },
     "Range": {
       "kind": "Object",
       "label": "Parser::Source::Range",
       "fields": [
-        {
-          "kind": "Simple",
-          "label": "Parser::Source::Buffer",
-          "fieldLabel": "source_buffer"
-        },
-        {
-          "kind": "Simple",
-          "label": "Integer",
-          "fieldLabel": "end_pos"
-        },
-        {
-          "kind": "Simple",
-          "label": "Integer",
-          "fieldLabel": "begin_pos"
-        }
+
       ]
     },
     "Parser::Source::Map::Send": {
       "kind": "Object",
       "label": "Parser::Source::Map::Send",
       "fields": [
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "dot"
-        },
-        {
-          "kind": "Simple",
-          "label": "Parser::Source::Range",
-          "fieldLabel": "selector"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "end"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "begin"
-        },
-        {
-          "kind": "Simple",
-          "label": "Parser::Source::Range",
-          "fieldLabel": "expression"
-        },
-        {
-          "kind": "Simple",
-          "label": "RuboCop::AST::SendNode",
-          "fieldLabel": "node"
-        }
+
       ]
     },
     "Send": {
       "kind": "Object",
       "label": "Parser::Source::Map::Send",
       "fields": [
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "dot"
-        },
-        {
-          "kind": "Simple",
-          "label": "Parser::Source::Range",
-          "fieldLabel": "selector"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "end"
-        },
-        {
-          "kind": "Simple",
-          "label": "NilClass",
-          "fieldLabel": "begin"
-        },
-        {
-          "kind": "Simple",
-          "label": "Parser::Source::Range",
-          "fieldLabel": "expression"
-        },
-        {
-          "kind": "Simple",
-          "label": "RuboCop::AST::SendNode",
-          "fieldLabel": "node"
-        }
+
       ]
     },
     "RuboCop::AST::SendNode": {
       "kind": "Object",
       "label": "RuboCop::AST::SendNode",
       "fields": [
-        {
-          "kind": "Simple",
-          "label": "Hash",
-          "fieldLabel": "mutable_attributes"
-        },
-        {
-          "kind": "Simple",
-          "label": "Array",
-          "fieldLabel": "children"
-        },
-        {
-          "kind": "Simple",
-          "label": "Symbol",
-          "fieldLabel": "type"
-        },
-        {
-          "kind": "Simple",
-          "label": "Parser::Source::Map::Send",
-          "fieldLabel": "location"
-        },
-        {
-          "kind": "Simple",
-          "label": "Integer",
-          "fieldLabel": "hash"
-        }
+
       ]
     },
     "SendNode": {
       "kind": "Object",
       "label": "RuboCop::AST::SendNode",
       "fields": [
-        {
-          "kind": "Simple",
-          "label": "Hash",
-          "fieldLabel": "mutable_attributes"
-        },
-        {
-          "kind": "Simple",
-          "label": "Array",
-          "fieldLabel": "children"
-        },
-        {
-          "kind": "Simple",
-          "label": "Symbol",
-          "fieldLabel": "type"
-        },
-        {
-          "kind": "Simple",
-          "label": "Parser::Source::Map::Send",
-          "fieldLabel": "location"
-        },
-        {
-          "kind": "Simple",
-          "label": "Integer",
-          "fieldLabel": "hash"
-        }
+
       ]
     }
   }
