@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'uri'
+require_relative 'tracing'
 
 module RuboCop
   module Cop
