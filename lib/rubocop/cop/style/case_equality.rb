@@ -3,6 +3,7 @@
 module RuboCop
   module Cop
     module Style
+
       # This cop checks for uses of the case equality operator(===).
       #
       # @example

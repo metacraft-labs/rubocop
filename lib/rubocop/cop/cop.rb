@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
 require 'uri'
-require_relative 'tracing'
+require 'deduckt'
+
 
 module RuboCop
   module Cop
@@ -40,6 +41,8 @@ module RuboCop
       class << self
         attr_reader :registry
       end
+
+      deduckt()
 
       def self.all
         registry.without_department(:Test).cops

@@ -19,5 +19,9 @@ group :test do
   gem 'webmock', require: false
 end
 
+gem 'deduckt', 
+  git: '$HOME/ruby-deduckt', branch: 'master'
+
 local_gemfile = 'Gemfile.local'
 eval_gemfile local_gemfile if File.exist?(local_gemfile)
+
