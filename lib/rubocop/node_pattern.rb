@@ -140,9 +140,9 @@ module RuboCop
           @string.scan(TOKEN).reject { |token| token =~ /\A#{SEPARATORS}\Z/ }
 
         @match_code = compile_expr(tokens, node_var, false)
-        if @case
-          p @match_code
-        end
+        #if @case
+        #  p @match_code
+        #end
         fail_due_to('unbalanced pattern') unless tokens.empty?
       end
 
