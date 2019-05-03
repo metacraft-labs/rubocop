@@ -20,7 +20,8 @@ group :test do
 end
 
 gem 'deduckt', 
-  git: '$HOME/ruby-deduckt', branch: 'master'
+  # git: '$HOME/ruby-deduckt', branch: 'master'
+  git: '/home/al/ruby-deduckt', branch: 'master'
 
 local_gemfile = 'Gemfile.local'
 eval_gemfile local_gemfile if File.exist?(local_gemfile)
